@@ -57,7 +57,7 @@ Pods/
 .idea/vcs.xml
 .idea/workspace.xml
 .idea/xcode.xml
-.idea/runConfigurations/CIC.xml
+.idea/runConfigurations/SecureKeychain.xml
 
 # Carthage
 #
