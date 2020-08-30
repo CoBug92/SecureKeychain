@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		437F966924FBC892000811E3 /* SecureKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437F965F24FBC892000811E3 /* SecureKeychain.framework */; };
+		437F966E24FBC892000811E3 /* SecureKeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F966D24FBC892000811E3 /* SecureKeychainTests.swift */; };
+		437F967024FBC892000811E3 /* SecureKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 437F966224FBC892000811E3 /* SecureKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437F968524FBC8B6000811E3 /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F967A24FBC8B6000811E3 /* SecureStore.swift */; };
+		437F968624FBC8B6000811E3 /* SecureStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F967C24FBC8B6000811E3 /* SecureStoreError.swift */; };
+		437F968824FBC8B6000811E3 /* InternetConnectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F967E24FBC8B6000811E3 /* InternetConnectionType.swift */; };
+		437F968924FBC8B6000811E3 /* InternetAuthenticationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F967F24FBC8B6000811E3 /* InternetAuthenticationType.swift */; };
+		437F968A24FBC8B6000811E3 /* SecureStoreQueryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F968124FBC8B6000811E3 /* SecureStoreQueryable.swift */; };
+		437F968B24FBC8B6000811E3 /* GenericPasswordQueryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F968224FBC8B6000811E3 /* GenericPasswordQueryable.swift */; };
+		437F968C24FBC8B6000811E3 /* InternetPasswordQueryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F968424FBC8B6000811E3 /* InternetPasswordQueryable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		437F966A24FBC892000811E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437F965624FBC892000811E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437F965E24FBC892000811E3;
+			remoteInfo = SecureKeychain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		437F965F24FBC892000811E3 /* SecureKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SecureKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		437F966224FBC892000811E3 /* SecureKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureKeychain.h; sourceTree = "<group>"; };
+		437F966324FBC892000811E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437F966824FBC892000811E3 /* SecureKeychainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureKeychainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		437F966D24FBC892000811E3 /* SecureKeychainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureKeychainTests.swift; sourceTree = "<group>"; };
+		437F966F24FBC892000811E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437F967A24FBC8B6000811E3 /* SecureStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStore.swift; sourceTree = "<group>"; };
+		437F967C24FBC8B6000811E3 /* SecureStoreError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStoreError.swift; sourceTree = "<group>"; };
+		437F967E24FBC8B6000811E3 /* InternetConnectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnectionType.swift; sourceTree = "<group>"; };
+		437F967F24FBC8B6000811E3 /* InternetAuthenticationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetAuthenticationType.swift; sourceTree = "<group>"; };
+		437F968124FBC8B6000811E3 /* SecureStoreQueryable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStoreQueryable.swift; sourceTree = "<group>"; };
+		437F968224FBC8B6000811E3 /* GenericPasswordQueryable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericPasswordQueryable.swift; sourceTree = "<group>"; };
+		437F968424FBC8B6000811E3 /* InternetPasswordQueryable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetPasswordQueryable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		437F965C24FBC892000811E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437F966524FBC892000811E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437F966924FBC892000811E3 /* SecureKeychain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		437F965524FBC892000811E3 = {
+			isa = PBXGroup;
+			children = (
+				437F966124FBC892000811E3 /* SecureKeychain */,
+				437F966C24FBC892000811E3 /* SecureKeychainTests */,
+				437F966024FBC892000811E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		437F966024FBC892000811E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				437F965F24FBC892000811E3 /* SecureKeychain.framework */,
+				437F966824FBC892000811E3 /* SecureKeychainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		437F966124FBC892000811E3 /* SecureKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				437F967924FBC8B6000811E3 /* Keychain */,
+				437F966224FBC892000811E3 /* SecureKeychain.h */,
+				437F966324FBC892000811E3 /* Info.plist */,
+			);
+			path = SecureKeychain;
+			sourceTree = "<group>";
+		};
+		437F966C24FBC892000811E3 /* SecureKeychainTests */ = {
+			isa = PBXGroup;
+			children = (
+				437F966D24FBC892000811E3 /* SecureKeychainTests.swift */,
+				437F966F24FBC892000811E3 /* Info.plist */,
+			);
+			path = SecureKeychainTests;
+			sourceTree = "<group>";
+		};
+		437F967924FBC8B6000811E3 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				437F968224FBC8B6000811E3 /* GenericPasswordQueryable.swift */,
+				437F967A24FBC8B6000811E3 /* SecureStore.swift */,
+				437F967B24FBC8B6000811E3 /* Enums */,
+				437F968324FBC8B6000811E3 /* Model */,
+				437F968024FBC8B6000811E3 /* Protocol */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		437F967B24FBC8B6000811E3 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				437F967C24FBC8B6000811E3 /* SecureStoreError.swift */,
+				437F967E24FBC8B6000811E3 /* InternetConnectionType.swift */,
+				437F967F24FBC8B6000811E3 /* InternetAuthenticationType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		437F968024FBC8B6000811E3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				437F968124FBC8B6000811E3 /* SecureStoreQueryable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		437F968324FBC8B6000811E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				437F968424FBC8B6000811E3 /* InternetPasswordQueryable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		437F965A24FBC892000811E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437F967024FBC892000811E3 /* SecureKeychain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		437F965E24FBC892000811E3 /* SecureKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437F967324FBC892000811E3 /* Build configuration list for PBXNativeTarget "SecureKeychain" */;
+			buildPhases = (
+				437F965A24FBC892000811E3 /* Headers */,
+				437F965B24FBC892000811E3 /* Sources */,
+				437F965C24FBC892000811E3 /* Frameworks */,
+				437F965D24FBC892000811E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureKeychain;
+			productName = SecureKeychain;
+			productReference = 437F965F24FBC892000811E3 /* SecureKeychain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		437F966724FBC892000811E3 /* SecureKeychainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437F967624FBC892000811E3 /* Build configuration list for PBXNativeTarget "SecureKeychainTests" */;
+			buildPhases = (
+				437F966424FBC892000811E3 /* Sources */,
+				437F966524FBC892000811E3 /* Frameworks */,
+				437F966624FBC892000811E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437F966B24FBC892000811E3 /* PBXTargetDependency */,
+			);
+			name = SecureKeychainTests;
+			productName = SecureKeychainTests;
+			productReference = 437F966824FBC892000811E3 /* SecureKeychainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		437F965624FBC892000811E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Bogdan Kostyuchenko";
+				TargetAttributes = {
+					437F965E24FBC892000811E3 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					437F966724FBC892000811E3 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 437F965924FBC892000811E3 /* Build configuration list for PBXProject "SecureKeychain" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 437F965524FBC892000811E3;
+			productRefGroup = 437F966024FBC892000811E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				437F965E24FBC892000811E3 /* SecureKeychain */,
+				437F966724FBC892000811E3 /* SecureKeychainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		437F965D24FBC892000811E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437F966624FBC892000811E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		437F965B24FBC892000811E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437F968C24FBC8B6000811E3 /* InternetPasswordQueryable.swift in Sources */,
+				437F968924FBC8B6000811E3 /* InternetAuthenticationType.swift in Sources */,
+				437F968524FBC8B6000811E3 /* SecureStore.swift in Sources */,
+				437F968824FBC8B6000811E3 /* InternetConnectionType.swift in Sources */,
+				437F968B24FBC8B6000811E3 /* GenericPasswordQueryable.swift in Sources */,
+				437F968624FBC8B6000811E3 /* SecureStoreError.swift in Sources */,
+				437F968A24FBC8B6000811E3 /* SecureStoreQueryable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437F966424FBC892000811E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437F966E24FBC892000811E3 /* SecureKeychainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		437F966B24FBC892000811E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437F965E24FBC892000811E3 /* SecureKeychain */;
+			targetProxy = 437F966A24FBC892000811E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		437F967124FBC892000811E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		437F967224FBC892000811E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		437F967424FBC892000811E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q9WXSNT6UT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SecureKeychain/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kostyuchenko.SecureKeychain;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		437F967524FBC892000811E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q9WXSNT6UT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SecureKeychain/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kostyuchenko.SecureKeychain;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		437F967724FBC892000811E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9WXSNT6UT;
+				INFOPLIST_FILE = SecureKeychainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kostyuchenko.SecureKeychainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		437F967824FBC892000811E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9WXSNT6UT;
+				INFOPLIST_FILE = SecureKeychainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kostyuchenko.SecureKeychainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		437F965924FBC892000811E3 /* Build configuration list for PBXProject "SecureKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437F967124FBC892000811E3 /* Debug */,
+				437F967224FBC892000811E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437F967324FBC892000811E3 /* Build configuration list for PBXNativeTarget "SecureKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437F967424FBC892000811E3 /* Debug */,
+				437F967524FBC892000811E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437F967624FBC892000811E3 /* Build configuration list for PBXNativeTarget "SecureKeychainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437F967724FBC892000811E3 /* Debug */,
+				437F967824FBC892000811E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 437F965624FBC892000811E3 /* Project object */;
+}
