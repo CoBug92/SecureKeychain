@@ -9,12 +9,36 @@
 import SecureKeychain
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+
+    // MARK: - Properties
+    private var secureStore: SecureStore {
+        let genericPasswordQueryable = GenericPasswordQueryable(service: "Example")
+        return SecureStore(secureStoreQueryable: genericPasswordQueryable)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
+    private func saveValue() {
+        try? secureStore.setValue("12345", for: "Password")
+    }
+
+    private func getValue() {
+        guard let password = try? secureStore.getValue(for: "Password") else {
+            return
+        }
+        print(password)
+    }
+
+    private func removeAllValues() {
+        try? secureStore.removeAllValues()
+    }
+
+    private func removeValue() {
+        try? secureStore.removeValue(for: "Password")
+    }
 
 }
 

@@ -6,7 +6,7 @@
 //  Copyright © 2020 Bogdan Kostyuchenko. All rights reserved.
 //
 
-@testable import Example_iOS
+@testable import SecureKeychain
 import XCTest
 
 class SecureStoreTest: XCTestCase {
@@ -48,7 +48,7 @@ class SecureStoreTest: XCTestCase {
         do {
             try secureStoreWithGenericPassword.setValue("Password", for: "genericPassword")
             let password = try secureStoreWithGenericPassword.getValue(for: "genericPassword")
-            XCTAssertEqual("pwd_1234", password)
+            XCTAssertEqual("Password", password)
         } catch let e {
             XCTFail("Reading generic password failed with \(e.localizedDescription).")
         }

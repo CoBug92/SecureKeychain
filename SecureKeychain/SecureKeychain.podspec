@@ -9,8 +9,9 @@ Pod::Spec.new do |spec|
   spec.license              = "MIT"
   spec.author               = "Bogdan Kostyuchenko"
   spec.social_media_url     = "https://www.instagram.com/cobug/"
-  spec.platform             = :ios, "8.0"
+  spec.platform             = :ios
+  spec.swift_version        = '5.0'
   spec.source               = { :git => "https://github.com/CoBug92/SecureKeychain.git", :tag => "#{spec.version}" }
-  spec.source_files         = "SecureKeychain"
+  spec.source_files         = "SecureKeychain/**/*.swift"
 
 end

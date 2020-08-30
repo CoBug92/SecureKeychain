@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../SecureKeychain/"
 
 SPEC CHECKSUMS:
-  SecureKeychain: 35f83cf1faaccb8b9d6da90c9e155dc5cf3e3454
+  SecureKeychain: 55c2beb336e68cd7e79fbc5dea627d9cea5a40f8
 
 PODFILE CHECKSUM: 8c94b52860a27d1bd25fbf54e97b21135f74dc3f
 
