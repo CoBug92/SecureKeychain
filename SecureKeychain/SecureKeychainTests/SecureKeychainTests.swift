@@ -6,7 +6,7 @@
 //  Copyright © 2020 Bogdan Kostyuchenko. All rights reserved.
 //
 
-@testable import SecureKeychain
+@testable import Example_iOS
 import XCTest
 
 class SecureStoreTest: XCTestCase {

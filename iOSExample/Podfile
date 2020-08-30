@@ -1,0 +1,12 @@
+platform :ios, '11.0'
+
+target 'iOSExample' do
+  use_frameworks!
+
+  pod 'SecureKeychain', :path => '../SecureKeychain/'
+
+  target 'iOSExampleTests' do
+    inherit! :search_paths
+  end
+
+end

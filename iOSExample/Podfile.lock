@@ -1,0 +1,16 @@
+PODS:
+  - SecureKeychain (1.0.0)
+
+DEPENDENCIES:
+  - SecureKeychain (from `../SecureKeychain/`)
+
+EXTERNAL SOURCES:
+  SecureKeychain:
+    :path: "../SecureKeychain/"
+
+SPEC CHECKSUMS:
+  SecureKeychain: 35f83cf1faaccb8b9d6da90c9e155dc5cf3e3454
+
+PODFILE CHECKSUM: 8c94b52860a27d1bd25fbf54e97b21135f74dc3f
+
+COCOAPODS: 1.9.3

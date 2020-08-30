@@ -17,6 +17,8 @@
 		437F968A24FBC8B6000811E3 /* SecureStoreQueryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F968124FBC8B6000811E3 /* SecureStoreQueryable.swift */; };
 		437F968B24FBC8B6000811E3 /* GenericPasswordQueryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F968224FBC8B6000811E3 /* GenericPasswordQueryable.swift */; };
 		437F968C24FBC8B6000811E3 /* InternetPasswordQueryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437F968424FBC8B6000811E3 /* InternetPasswordQueryable.swift */; };
+		6B229388B34EB8A9EE82D7D6 /* Pods_SecureKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8568353DE02D4C183A7BA1 /* Pods_SecureKeychain.framework */; };
+		97AD6F9F3501BB28E78FBB04 /* Pods_SecureKeychain_SecureKeychainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051BD7B788C2926E9DAF47CF /* Pods_SecureKeychain_SecureKeychainTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051BD7B788C2926E9DAF47CF /* Pods_SecureKeychain_SecureKeychainTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureKeychain_SecureKeychainTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBEF490AB619B30238E3046 /* Pods-SecureKeychain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureKeychain.release.xcconfig"; path = "Target Support Files/Pods-SecureKeychain/Pods-SecureKeychain.release.xcconfig"; sourceTree = "<group>"; };
 		437F965F24FBC892000811E3 /* SecureKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SecureKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		437F966224FBC892000811E3 /* SecureKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureKeychain.h; sourceTree = "<group>"; };
 		437F966324FBC892000811E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +47,10 @@
 		437F968124FBC8B6000811E3 /* SecureStoreQueryable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStoreQueryable.swift; sourceTree = "<group>"; };
 		437F968224FBC8B6000811E3 /* GenericPasswordQueryable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericPasswordQueryable.swift; sourceTree = "<group>"; };
 		437F968424FBC8B6000811E3 /* InternetPasswordQueryable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetPasswordQueryable.swift; sourceTree = "<group>"; };
+		4587AC84DDECA82ABD0F28B5 /* Pods-SecureKeychain-SecureKeychainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureKeychain-SecureKeychainTests.debug.xcconfig"; path = "Target Support Files/Pods-SecureKeychain-SecureKeychainTests/Pods-SecureKeychain-SecureKeychainTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E2F17EC6CBF2345583D8802 /* Pods-SecureKeychain-SecureKeychainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureKeychain-SecureKeychainTests.release.xcconfig"; path = "Target Support Files/Pods-SecureKeychain-SecureKeychainTests/Pods-SecureKeychain-SecureKeychainTests.release.xcconfig"; sourceTree = "<group>"; };
+		8ADB0C473E32D465CEC0B74E /* Pods-SecureKeychain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureKeychain.debug.xcconfig"; path = "Target Support Files/Pods-SecureKeychain/Pods-SecureKeychain.debug.xcconfig"; sourceTree = "<group>"; };
+		8B8568353DE02D4C183A7BA1 /* Pods_SecureKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B229388B34EB8A9EE82D7D6 /* Pods_SecureKeychain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				437F966924FBC892000811E3 /* SecureKeychain.framework in Frameworks */,
+				97AD6F9F3501BB28E78FBB04 /* Pods_SecureKeychain_SecureKeychainTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +80,8 @@
 				437F966124FBC892000811E3 /* SecureKeychain */,
 				437F966C24FBC892000811E3 /* SecureKeychainTests */,
 				437F966024FBC892000811E3 /* Products */,
+				68EC5770F72410E7340CF6CE /* Pods */,
+				B4E0DAB799AFC8DCDAEB75C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +151,27 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		68EC5770F72410E7340CF6CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8ADB0C473E32D465CEC0B74E /* Pods-SecureKeychain.debug.xcconfig */,
+				0DBEF490AB619B30238E3046 /* Pods-SecureKeychain.release.xcconfig */,
+				4587AC84DDECA82ABD0F28B5 /* Pods-SecureKeychain-SecureKeychainTests.debug.xcconfig */,
+				5E2F17EC6CBF2345583D8802 /* Pods-SecureKeychain-SecureKeychainTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4E0DAB799AFC8DCDAEB75C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B8568353DE02D4C183A7BA1 /* Pods_SecureKeychain.framework */,
+				051BD7B788C2926E9DAF47CF /* Pods_SecureKeychain_SecureKeychainTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -157,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 437F967324FBC892000811E3 /* Build configuration list for PBXNativeTarget "SecureKeychain" */;
 			buildPhases = (
+				B062762D2B3F4B428C63F467 /* [CP] Check Pods Manifest.lock */,
 				437F965A24FBC892000811E3 /* Headers */,
 				437F965B24FBC892000811E3 /* Sources */,
 				437F965C24FBC892000811E3 /* Frameworks */,
@@ -175,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 437F967624FBC892000811E3 /* Build configuration list for PBXNativeTarget "SecureKeychainTests" */;
 			buildPhases = (
+				03721EFEDA5D60EAE5A319B8 /* [CP] Check Pods Manifest.lock */,
 				437F966424FBC892000811E3 /* Sources */,
 				437F966524FBC892000811E3 /* Frameworks */,
 				437F966624FBC892000811E3 /* Resources */,
@@ -242,6 +277,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03721EFEDA5D60EAE5A319B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureKeychain-SecureKeychainTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B062762D2B3F4B428C63F467 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureKeychain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		437F965B24FBC892000811E3 /* Sources */ = {
@@ -399,6 +481,7 @@
 		};
 		437F967424FBC892000811E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ADB0C473E32D465CEC0B74E /* Pods-SecureKeychain.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -424,6 +507,7 @@
 		};
 		437F967524FBC892000811E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBEF490AB619B30238E3046 /* Pods-SecureKeychain.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -449,6 +533,7 @@
 		};
 		437F967724FBC892000811E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4587AC84DDECA82ABD0F28B5 /* Pods-SecureKeychain-SecureKeychainTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +553,7 @@
 		};
 		437F967824FBC892000811E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E2F17EC6CBF2345583D8802 /* Pods-SecureKeychain-SecureKeychainTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
